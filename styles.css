@@ -30,7 +30,7 @@
     font-size: 20px;
     color: black;
 }
-header{
+.container-header{
     background-color: cornflowerblue;
     display: flex;
     height: 100vh;
@@ -49,13 +49,21 @@ header{
     height: 300px;
     border-radius: 100%;
 }
-#about {
-    background-color: crimson;
-    padding: 50px;
-    height: 100vh;
+.button-group {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    padding: 50px;
+    gap: 15px;
+}
+.btn-profile {
+    background-color: salmon;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+.btn:hover {
+    background-color: darksalmon;
 }
